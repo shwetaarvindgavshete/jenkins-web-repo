@@ -1,62 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Static Website</title>
 
+    <!-- Basic styling -->
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
             background: #f4f4f4;
+            color: #333;
         }
+
         header {
             background: #333;
-            color: #fff;
-            padding: 15px 20px;
+            color: white;
+            padding: 20px;
             text-align: center;
         }
+
         nav {
             background: #444;
             padding: 10px;
             text-align: center;
         }
+
         nav a {
-            color: #fff;
+            color: white;
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
         }
-        nav a:hover {
-            text-decoration: underline;
-        }
+
         .container {
             padding: 20px;
+            max-width: 800px;
+            margin: auto;
         }
-        .card {
-            background: #fff;
-            padding: 20px;
-            margin: 15px 0;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
+
         footer {
             background: #333;
-            color: #fff;
+            color: white;
             text-align: center;
-            padding: 15px;
-            margin-top: 20px;
+            padding: 10px;
+            margin-top: 30px;
         }
     </style>
 </head>
+
 <body>
 
+    <!-- Header -->
     <header>
         <h1>Welcome to My Static Website</h1>
-        <p>Simple. Clean. Fast.</p>
+        <p>A simple HTML-only page</p>
     </header>
 
+    <!-- Navigation -->
     <nav>
         <a href="#">Home</a>
         <a href="#">About</a>
@@ -64,25 +66,32 @@
         <a href="#">Contact</a>
     </nav>
 
+    <!-- Main Content -->
     <div class="container">
-        <div class="card">
-            <h2>About This Site</h2>
-            <p>This is a simple static website built using only HTML and CSS. You can modify it to create your portfolio, business site, or personal blog.</p>
-        </div>
+        <h2>About This Site</h2>
+        <p>
+            This is a static website created using only HTML and CSS.
+            You can host it on GitHub Pages, Netlify, Vercel, or any static hosting provider.
+        </p>
 
-        <div class="card">
-            <h2>Features</h2>
-            <ul>
-                <li>Fully static — no backend needed</li>
-                <li>Responsive layout</li>
-                <li>Clean and modern design</li>
-            </ul>
-        </div>
+        <h3>Features</h3>
+        <ul>
+            <li>Simple, clean layout</li>
+            <li>No backend required</li>
+            <li>Fast and lightweight</li>
+        </ul>
+
+        <h3>Get Started</h3>
+        <p>
+            Modify this template to create your own website. Add more pages, images, or style it with your own CSS.
+        </p>
     </div>
 
+    <!-- Footer -->
     <footer>
-        <p>© 2025 My Static Website</p>
+        <p>&copy; 2025 My Static Website. All rights reserved.</p>
     </footer>
 
 </body>
+</html>
 </html>
